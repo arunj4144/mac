@@ -30,17 +30,24 @@ The script offers the following functionalities:
 
 ### Then
 run
-   ./mac_system_utility.sh
+   `./mac_system_utility.sh`
 
 Main Menu
 
 The script will present a menu of options to choose from:
+
 	1.	View System Status: Displays information about uptime, disk space, and memory usage.
+ 
 	2.	Clean Temporary Files: Cleans system and application cache files.
+ 
 	3.	Open Junk Folders: Opens potential junk folders for manual review.
+ 
 	4.	Find Large Files: Identifies and lists large files (>100MB) on your system.
+ 
 	5.	Network Tools: Provides network troubleshooting utilities.
+ 
 	6.	RAM & Performance Optimization: Displays memory information and recommendations for improving performance.
+ 
 	7.	Exit: Exit the script.
 
 User Data and Safety
@@ -55,6 +62,8 @@ Important: Always make sure to have backups of important files before running cl
 Folders Accessed by the Script
 
 The script goes through the following folders for cleaning temporary files and opening junk directories:
+
+
 	•	$HOME/Library/Caches: User-specific cache files.
 	•	/Library/Caches: System-wide cache files.
 	•	/private/var/folders: System’s temporary files.
